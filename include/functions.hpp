@@ -1,4 +1,4 @@
-// header file with game functions
+// header file with game functions 
 
 #include <cstdlib>
 #include <ctime>
