@@ -48,7 +48,7 @@ namespace food{
 
 					if (j == posj && i == posi)  {
 							continue;
-						}
+					}
 
 					for (int n = 0; n < foods; n++) {
 						if (j == foll[n].j && i == foll[n].i) {
