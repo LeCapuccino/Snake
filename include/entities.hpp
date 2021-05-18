@@ -11,7 +11,7 @@ using namespace settings;
 #ifndef ENTITIES_HPP
 #define ENTITIES_HPP
 
-	Food seed;
+Food seed;
 Head lead;
 Body foll[QUAD - 1];
 
