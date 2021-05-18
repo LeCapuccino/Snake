@@ -1,4 +1,4 @@
-// header file with food definition
+// header file with food definition 
 
 #include <cstdlib>
 #include <ctime>
