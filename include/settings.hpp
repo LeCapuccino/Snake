@@ -1,4 +1,4 @@
-//header file with the game settings
+//header file with the game settings 
 
 #include "../include/point.hpp"
 
