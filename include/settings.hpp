@@ -4,8 +4,8 @@
 
 using namespace point;
 
-#ifndef SETTINGS_H
-#define SETTINGS_H
+#ifndef SETTINGS_HPP
+#define SETTINGS_HPP
 
 namespace settings {
 	enum {
