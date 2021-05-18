@@ -31,7 +31,7 @@ namespace food{
 	    	    glVertex2f(mesh[i][j].x + 2.0 / unid, mesh[i][j].y);
 	    	    glVertex2f(mesh[i][j].x + 2.0 / unid, mesh[i][j].y - 2.0 / unid);
 	    	    glVertex2f(mesh[i][j].x, mesh[i][j].y - 2.0 / unid);
-    		glEnd();
+    		glEnd(); 
 		}
 
 		void pos() {
