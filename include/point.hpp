@@ -1,4 +1,4 @@
-// header file with point definition
+// header file with point definition 
 
 #ifndef POINT_HPP
 #define POINT_HPP
