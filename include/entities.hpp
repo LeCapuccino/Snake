@@ -1,4 +1,4 @@
-// header file with entities declaration
+// header file with entities declaration 
 
 #include "../include/food.hpp"
 #include "../include/snake.hpp"
