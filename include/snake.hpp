@@ -1,4 +1,4 @@
-// header file with snake definition 
+//  header file with snake definition 
 
 #include "../include/GL/glut.h"
 #include "../include/GL/freeglut.h"
