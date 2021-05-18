@@ -13,7 +13,7 @@ using namespace settings;
 #define SNAKE_HPP
 
 namespace snake {
-	class Head {
+	class Head { 
 	public:
 		int j;
 		int i;
