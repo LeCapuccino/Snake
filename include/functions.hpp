@@ -63,6 +63,24 @@ namespace functions {
 	}
 
 	void draw() {
+		glcolor3f(foo[col][0], foo[col][1], foo[col][2]);
+		
+		glBegin(GL_POLYGON);
+			glVertex2f(-1, 1);
+			glVertex2f(-1, -1);
+			glVertex2f(1, -1);
+			glVertex2f(1, 1);
+		glEnd();
+		
+		glcolor3f(back[col][0], back[col][1], back[col][2]);
+		
+		glBegin(GL_POLYGON);
+			glVertex2f(-0.99, 0.99);
+			glVertex2f(-0.99, -0.99);
+			glVertex2f(0.99, 0.99);
+			glVertex2f(0.99, 0.99);
+		glEnd();
+		
 		for (int n = lead.foods - 1; n >= 0; n--) {
 			if (n == 0) {
 				foll[n].move(lead.j, lead.i);
